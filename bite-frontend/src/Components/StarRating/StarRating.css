@@ -1,0 +1,9 @@
+.StarRating {
+  background-color: #457B9D;
+  background: transparent;
+}
+
+.StarRating-img {
+  background-color: transparent;
+  margin-bottom: -3px;
+}

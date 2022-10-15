@@ -1,0 +1,196 @@
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto;
+    background-color: #457B9D;
+    padding: 3vmin;
+    border-radius: 2vmin;
+    row-gap: 2.2vmin;
+}
+
+.grid-header {
+    background-color: #457B9D;
+    color: #F1FAEE;
+    justify-content: space-between;
+    display: flex;
+    border-color: #1D3557;
+    border-bottom: 0.4vmin solid #1D3557;
+    margin-left: -3vmin;
+    margin-right: -3vmin;
+}
+
+.header {
+    background-color: #457B9D;
+    color: #F1FAEE;
+    margin-left: 2vmin;
+    font-size: 5.1vmin;
+    font-weight: bolder;
+    margin-top: -2vmin;
+}
+
+p {
+    background-color: transparent;
+    font-size: 2.2vmin;
+    margin-top: 1vmin;
+    color: #1D3557;
+    font-weight: bold;
+}
+
+.button-reset {
+    background-color: #1D3557;
+    color: #F1FAEE;
+    font-size: 1.8vmin;
+    font-weight: bold;
+    padding: 0.9vmin;
+    border-radius: 1.5vmin;
+    text-align: center;
+    width: 9vmin;
+    height: 3.8vmin;
+    margin-right: 2vmin;
+    margin-top: -1vmin;
+    cursor: pointer;
+}
+
+.button-reset:hover {
+    background-color: #F1FAEE;
+    color: #1D3557;
+    transition: all 0.2s ease-in-out;
+}
+
+.grid-distance {
+    background-color: transparent;
+    color: #F1FAEE;
+    font-size: 3.2vmin;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -1.7vmin;
+}
+
+.grid-item {
+    background-color: transparent;
+    color: #F1FAEE;
+    font-size: 3.2vmin;
+    text-align: left;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 1vmin;
+    border-radius: 3vmin;
+    background: #F1FAEE;
+}
+
+.divider {
+    background-color:  transparent;
+    border: 0.3vmin dotted #1D3557;
+    margin-top: 0.6vmin;
+    margin-bottom: 0.3vmin;
+    margin-left: 3vmin;
+    margin-right: 3vmin;
+}
+
+.grid-item-takeout {
+    background-color:  transparent;
+    font-size: 3vmin;
+    display: grid;
+    justify-items: center;
+}
+
+/* Slider controller */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 2.2vmin;
+    height: 2.2vmin;
+    border-radius: 50%;
+    background: #AD2B35;
+    cursor: pointer;
+}
+
+/* Slider controller */
+.slider::-moz-range-thumb {
+    width: 2.2vmin;
+    height: 2.2vmin;
+    border-radius: 50%;
+    background: #AD2B35;
+    cursor: pointer;
+}
+
+/* Place holder */
+.grid-subitem {
+    background-color: transparent;
+    color: #AD2B35;
+    font-size: 2.5vmin;
+    text-align: center;
+}
+
+.button-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: transparent;
+    width: auto;
+    gap: 2vmin;
+}
+
+.button-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: transparent;
+    gap: 2vmin;
+}
+
+.button-item2 {
+    background-color: #AD2B35;
+    color: #F1FAEE;
+    font-size: 1.5vmin;
+    font-weight: bold;
+    padding: 1vmin;
+    border-radius: 4vmin;
+    text-align: center;
+    width: 14vmin;
+    cursor: pointer;
+}
+
+.button-item2:hover {
+    background-color: rgb(143, 28, 12);
+    transition: all 0.2s ease-in-out;
+    color: #F1FAEE;
+    font-size: 1.5vmin;
+    font-weight: bold;
+    padding: 1vmin;
+    border-radius: 4vmin;
+    text-align: center;
+    width: 14vmin;
+}
+
+.button-item2-selected {
+    background-color: rgb(143, 28, 12);
+    transition: all 0.2s ease-in-out;
+    color: #F1FAEE;
+    font-size: 1.5vmin;
+    font-weight: bold;
+    padding: 1vmin;
+    border-radius: 4vmin;
+    text-align: center;
+    width: 14vmin;
+    box-shadow: 0.2vmin 0.2vmin rgb(58, 57, 57);
+    cursor: pointer;
+}
+
+.apply-button {
+    background-color: #F1FAEE;
+    width: 55vmin;
+    padding: .1vmin;
+    font-size: 2.4vmin;
+    color: #AD2B35;
+    font-weight: bolder;
+    border-radius: 1vmin;
+    justify-self: center;
+    margin-top: 0.5vmin;
+    cursor: pointer;
+}
+
+.apply-button:hover {
+    background-color: #1D3557;
+    color: #F1FAEE;
+    transition: all 0.2s ease-in-out;
+}
