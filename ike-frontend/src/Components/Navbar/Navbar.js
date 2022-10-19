@@ -1,12 +1,16 @@
 import React from 'react';
 import "./Navbar.css";
-//import PAFlogo from '../../Assets/logo-PAF-sm.png';
+import PAFlogo from '../../Assets/logo-PAF-sm.png';
 
 
 const NavBar = () => {
     return (
         <div className="Navbar">
-            <a className='nav-logo' href='/'>ʻIke Kūpuna</a>
+            <a className='nav-logo' href='/'>
+            <div class="NavLogo">
+                <img src={PAFlogo} alt="Logo"/>
+            </div>
+            </a>
             <div className="nav-items">
                 <a href="/Unit 1">Unit 1</a>
                 <a href="/Unit 2">Unit 2</a>
