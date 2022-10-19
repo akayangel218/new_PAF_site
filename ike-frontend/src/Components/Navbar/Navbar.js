@@ -1,11 +1,12 @@
 import React from 'react';
 import "./Navbar.css";
+//import PAFlogo from '../../Assets/logo-PAF-sm.png';
 
 
 const NavBar = () => {
     return (
         <div className="Navbar">
-            <span className='nav-logo'>ʻIke Kūpuna</span>
+            <a className='nav-logo' href='/'>ʻIke Kūpuna</a>
             <div className="nav-items">
                 <a href="/Unit 1">Unit 1</a>
                 <a href="/Unit 2">Unit 2</a>
