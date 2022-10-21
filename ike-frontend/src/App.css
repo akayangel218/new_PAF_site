@@ -13,10 +13,10 @@
   text-align: center;
   margin: 1vmax;
   font-size: 3vmax;
-  font-weight: 200;
+  font-family: Papyrus;
 }
 
-.textbox{
+.textbox {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   width: 60vmax;
@@ -27,3 +27,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/*.units {
+
+}*/
