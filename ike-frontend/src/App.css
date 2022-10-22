@@ -6,7 +6,7 @@
 
 .App {
   background: #ffffff;
-  height: 100vh;
+  height: 120vh;
 }
 
 .title {
@@ -28,6 +28,29 @@
   margin-right: auto;
 }
 
-/*.units {
+.unit {
+  display: inline-block;
+  position: relative;
+  border-radius: 15px;
+  padding: 40px;
+  border-color: #4894a4;
+  border-style: solid;
+  border-width: medium;
+  margin-left: 50px;
+  width: 200px;
+}
 
-}*/
+.unittext {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60vmax;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2vmax;
+  font-size: 14px;
+}
+
+.text-translation {
+  text-align: center;
+  font-size: 10px;
+}
