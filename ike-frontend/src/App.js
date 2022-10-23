@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+//import Unit11 from './Pages/Unit 1/unit1-1';
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
@@ -22,19 +23,19 @@ function App() {
         </a>
         <a className='unit' href='/unit2'>
           <p class="unittext">Unit 2: Nā Loko lʻa</p>
-          <p class="text-translation">Fishponds</p>
+          <p class="text-translation">Fishponds (Coming Soon)</p>
         </a>
         <a className='unit' href='/unit3'>
           <p class="unittext">Unit 3: E Ola I ka Loko</p>
-          <p class="text-translation">Life in a Fishpond</p>
+          <p class="text-translation">Life in a Fishpond (Coming Soon)</p>
         </a>
         <a className='unit' href='/unit4'>
           <p class="unittext">Unit 4: Nā Mea Kanu</p>
-          <p class="text-translation">Plants</p>
+          <p class="text-translation">Plants (Coming Soon)</p>
         </a>
         <a className='unit' href='/unit5'>
           <p class="unittext">Unit 5: I Ka Wā Ma Hope</p>
-          <p class="text-translation">Future</p>
+          <p class="text-translation">Future (Coming Soon)</p>
         </a>
       </div>
     </div>
