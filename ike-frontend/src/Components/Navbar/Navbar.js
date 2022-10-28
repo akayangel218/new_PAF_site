@@ -4,7 +4,7 @@ import PAFlogo from '../../Assets/logo-PAF-sm.png';
 import WaikaluaLogo from '../../Assets/waikalualogo.png';
 
 
-const NavBar = () => {
+const Navbar = () => {
     return (
         <div className="Navbar">
             <a className='nav-logo' href='/'>
@@ -21,4 +21,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default Navbar;

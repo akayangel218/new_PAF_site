@@ -1,11 +1,13 @@
-import './unit1.css'
-import React, { Component } from 'react';
+import './unit1.css';
+//import Unit1_1 from './unit1-1';
+import React from 'react';
+import Navbar from '../../Components/Navbar/Navbar';
+//import {Link} from "react-router-dom";
 
-class Unit1 extends Component {
-    render () {
+const Unit1 = () => {
         return (
             <div className="App">
-                <Navbar/>
+                <Navbar />
                 <div className='title'> Unit 1: Hoʻomākaukau</div>
                 <div className='textbox'> 
                     <p>
@@ -14,10 +16,8 @@ class Unit1 extends Component {
                     your experience.
                     </p>
                 </div>
-                
             </div>
-        )
+        );
     }
-}
 
 export default Unit1;

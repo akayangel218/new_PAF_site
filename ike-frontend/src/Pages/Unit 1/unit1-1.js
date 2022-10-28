@@ -1,14 +1,14 @@
 import './unit1.css'
-import React, { Component } from 'react';
+import Navbar from '../../Components/Navbar/Navbar';
+import React from 'react';
 
-class Unit11 extends Component {
-    render () {
-        return (
-            <div className="App">
-                <div className='title'>Lesson 1.1: Before Your Visit</div>
-            </div>
-        )
-    }
+const Unit1_1 = () => {
+    return (
+        <div className="App">
+            <Navbar/>
+            <div className='title'>Lesson 1.1: Before Your Visit</div>
+        </div>
+    );
 }
 
-export default Unit11;
+export default Unit1_1;
