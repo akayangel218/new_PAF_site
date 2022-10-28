@@ -1,22 +1,16 @@
 import './Home.css';
 import React from 'react';
-//import { BrowserRouter, Route, Routes, Switch } from 'react-router-dom';
-//import Unit1 from './Pages/Unit 1/unit1';
-import Navbar from "./Components/Navbar/Navbar";
 
 const Home = () => {
-    <div className="App">
-    <Navbar/>
-    <div className='title'> Aloha </div>
-    <div className='textbox'> 
-      <p>
-        Welcome to the Waikalua Loko I'a interactive platform.
-        The Information shared will support us in continuing to foster kinship and kuleana between kanaka and ʻāina.
-        Please select a unit to begin.
-        Mahalo nui.
-      </p> 
-    </div>
-    <div className='units'>
+    
+    <><div className='title'> Aloha </div><div className='textbox'>
+    <p>
+      Welcome to the Waikalua Loko I'a interactive platform.
+      The Information shared will support us in continuing to foster kinship and kuleana between kanaka and ʻāina.
+      Please select a unit to begin.
+      Mahalo nui.
+    </p>
+  </div><div className='units'>
       <a className='unit' href='/unit1'>
         <p class="unittext">Unit 1: E Komo</p>
         <p class="text-translation">Welcome</p>
@@ -37,8 +31,7 @@ const Home = () => {
         <p class="unittext">Unit 5: I Ka Wā Ma Hope</p>
         <p class="text-translation">Future (Coming Soon)</p>
       </a>
-    </div>
-  </div>
+    </div></>
 }
 
 export default Home;
