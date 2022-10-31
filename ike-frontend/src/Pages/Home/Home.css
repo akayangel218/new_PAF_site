@@ -4,6 +4,12 @@
     font-size: 3vmax;
     font-family: Papyrus;
   }
+
+
+  a:link {
+    text-decoration: none!important;
+  }
+
   
   .textbox {
     text-align: center;
