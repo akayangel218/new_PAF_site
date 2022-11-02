@@ -5,7 +5,8 @@ class Home extends Component {
     render () {
       return (
         <>
-        <div className='title'> Aloha </div><div className='textbox'>
+        <div className='title'> Aloha </div>
+        <div className='textbox'>
         <p>
           Welcome to the Waikalua Loko I'a interactive platform.
           The Information shared will support us in continuing to foster kinship and kuleana between kanaka and ʻāina.
