@@ -9,11 +9,11 @@ const Unit1 = () => {
                 <div className='title'> Unit 1: Hoʻomākaukau</div>
                 <div className='textbox'> 
                     <p>
-                    You will be  entering an aloha ʻāina site soon. These lessons will prepare you to physically and 
+                    You will be entering an aloha ʻāina site soon. These lessons will prepare you to physically and 
                     mentally connect, learn, and get the most out of your experience.
                     </p>
                 </div>
-                <a className='proceed' href='/unit1-1'>
+                <a className='proceed' href='/unit1.1'>
                     <p class="proceedtext">Enter</p>
                 </a>
             </>
