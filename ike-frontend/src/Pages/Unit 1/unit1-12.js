@@ -7,9 +7,9 @@ const Unit112 = () => {
             <div className='title'> Lesson 1.2: Hoʻolauna</div>
             <div className='textbox'> 
                 <p>
-                Next, you will learn one format of hoʻolauna using the ʻŌlelo Hawaiʻi. 
+                Next, you will learn one format of 'hoʻolauna' using the 'ʻŌlelo Hawaiʻi'.
                 We use hoʻolauna to introduce ourself to other people and places. 
-                Please listen to the example and practice your inoa hoʻolauna
+                Please listen to the example and practice your 'inoa' hoʻolauna
                 </p>
             </div>
             <a className='proceed' href='/unit1.13'>
