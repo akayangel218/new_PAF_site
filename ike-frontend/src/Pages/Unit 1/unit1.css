@@ -50,4 +50,6 @@ a:link {
 .video {
   margin-top: -10px;
   margin-left: 350px;
+  width: 400px;
+  height: auto;
 }
