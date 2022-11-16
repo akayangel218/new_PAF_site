@@ -1,5 +1,6 @@
 import './unit1.css'
 import React from 'react';
+import Vimeo from '@u-wave/react-vimeo';
 
 const Unit113 = () => {
     return (
@@ -11,6 +12,12 @@ const Unit113 = () => {
                 We use hoʻolauna to introduce ourself to other people and places. 
                 Please listen to the example and practice your inoa hoʻolauna
                 </p>
+            </div>
+            <div className='video'>
+                <Vimeo
+                video="https://vimeo.com/showcase/9894233/video/769700380"
+                className='video'
+                />
             </div>
             <a className='proceed' href='/unit1exit'>
                     <p class="proceedtext">Next</p>

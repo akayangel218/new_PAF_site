@@ -1,5 +1,6 @@
 import './unit1.css'
 import React from 'react';
+import Vimeo from '@u-wave/react-vimeo';
 
 const Unit11 = () => {
     return (
@@ -10,6 +11,12 @@ const Unit11 = () => {
                 In this lesson, you will learn how to prepare for an aloha ʻāina site. 
                 To start, watch this video of Rosalyn Concepcion.
                 </p>
+            </div>
+            <div className='video'>
+                <Vimeo
+                video="https://vimeo.com/showcase/9894233/video/769717429"
+                className='video'
+                />
             </div>
             <a className='proceed' href='/unit1.12'>
                     <p class="proceedtext">Next</p>
