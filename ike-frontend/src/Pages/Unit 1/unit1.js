@@ -1,7 +1,10 @@
 import './unit1.css';
-//import Unit1_1 from './unit1-1';
 import React from 'react';
-//import {Link} from "react-router-dom";
+/* import Unit1Intro from '../../Assets/Unit 1/unit1_intro.png';
+
+                <div class="unit1BG">
+                    <img src={Unit1Intro} alt="BG"/>
+                </div>*/
 
 const Unit1 = () => {
         return (

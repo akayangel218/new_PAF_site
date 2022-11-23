@@ -9,5 +9,10 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace, Arial, Helvetica, sans-serif;
+    monospace, Arial, Helvetica, sans-serif, manua;
+}
+
+@font-face {
+  font-family: Inika;
+  src: local("Inika"), url("./Fonts/Inika/Inika-Regular.ttf") format("truetype");
 }
