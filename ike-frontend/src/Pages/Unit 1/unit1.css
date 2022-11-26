@@ -19,6 +19,28 @@ a:link {
     font-family: Inika;
 }
 
+.input_title {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 2vmax;
+  width: 2050px;
+  height: 60px;
+  font-family: Inika;
+  font-weight: bold;
+}
+
+.input1 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vmax;
+  margin-top: -150px;
+  width: 2050px;
+  height: 50px;
+}
+
 
 
 .intro_textbox {
@@ -48,6 +70,7 @@ a:link {
 }
 
 .textbox_right {
+  position: relative;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   width: 60vmax;
@@ -57,6 +80,18 @@ a:link {
   border-radius: 2vmax;
   font-size: 2vmax;
   margin-left: 500px;
+  margin-right: auto;
+}
+
+.textbox_right4 {
+  position: absolute;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50vmax;
+  padding: 1vmax;
+  border-radius: 2vmax;
+  font-size: 2vmax;
+  margin-left: 600px;
   margin-right: auto;
 }
 
@@ -87,6 +122,19 @@ a:link {
   height: 20px;
 }
 
+.proceedexam {
+  display: inline-block;
+  position: relative;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #4894a4;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 70px;
+  width: 450px;
+  height: 20px;
+}
+
 .proceedtext {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
@@ -114,9 +162,73 @@ a:link {
   left: 75px;
 }
 
-.thoughtbubble {
-  position: fixed;
-  width: auto;
-  left: 800px;
-  top: 200px;
+.coral {
+  display: block;
+  position: relative;
+  left: 70px;
+  width: 100px;
+  height: auto;
+}
+
+.fresh {
+  display: block;
+  position: relative;
+  width: 50%;
+  left: 70px;
+}
+
+.lei {
+  display: block;
+  position: relative;
+  left: 70px;
+  width: 100px;
+  height: auto;
+}
+
+.rain {
+  display: block;
+  position: relative;
+  left: 70px;
+  width: 100px;
+  height: auto;
+}
+
+.rock {
+  display: block;
+  position: relative;
+  left: 70px;
+  width: 100px;
+  height: auto;
+}
+
+.salt {
+  display: block;
+  position: relative;
+  left: 70px;
+  width: 100px;
+  height: auto;
+}
+
+.sand {
+  display: block;
+  position: relative;
+  left: 70px;
+  width: 100px;
+  height: auto;
+}
+
+.waterspring {
+  display: block;
+  position: relative;
+  left: 70px;
+  width: 100px;
+  height: auto;
+}
+
+.Oahumap {
+  display: block;
+  position: absolute;
+  left: 70px;
+  width: 100px;
+  height: auto;
 }

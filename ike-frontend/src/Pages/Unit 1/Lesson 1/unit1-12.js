@@ -1,11 +1,10 @@
 import '../unit1.css'
 import React from 'react';
-import bubble from '../../../Assets/Unit 1/Lesson 1/thought.png'
 
 const Unit112 = () => {
     return (
         <>
-            <div className='title'> Lesson 1.1: Hoʻolauna</div>
+            <div className='title'> Lesson 1.12: Hoʻolauna</div>
             <div className='textbox'> 
                 <p>
                 Next, you will learn one format of hoʻolauna using the ʻŌlelo Hawaiʻi. 
@@ -18,18 +17,35 @@ const Unit112 = () => {
             </div>
             <div className='textbox'> 
                 <p>
-                Please listen to the example and practice your inoa hoʻolauna.
+                Please read the following example and practice your inoa hoʻolauna by filling in the blanks for the English and ʻŌlelo Hawaiʻi.
                 </p>
             </div>
-            <div className='thoughtbubble' >
-                <img src={bubble} alt="bubble"/>
-            </div>
+            <div className='input_title'> ʻŌlelo Hawaiʻi </div>
+            <br></br>
             <div className='input1' >
                 <form>
-                    <label>Enter your name:
-                        <input type="text" />
-                    </label>
+                    <label>Aloha, </label>
+                        <input 
+                        type="text"
+                        />
+                    <label> ʻo koʻu inoa.</label>
                 </form>
+            </div>
+            <div className='input_title'> English </div>
+            <br></br>
+            <div className='input1' >
+                <form>
+                    <label>Hello, my name is </label>
+                        <input 
+                        type="text"
+                        />
+                    <label> .</label>
+                </form>
+            </div>
+            <div className='input_title'>Example</div>
+            <br></br>
+            <div className='input1'> 
+                <p>ʻO Rosalyn koʻu inoa. </p>
             </div>
             <a className='proceed' href='/unit1.13'>
                     <p class="proceedtext">Next</p>
